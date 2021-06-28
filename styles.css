@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+  font-family: Big Shoulders Display, cursive;
+  color: hsl(0, 0%, 95%);
+  padding: 8% 0;
+}
+
+p {
+  font-family: Lexend Deca, sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  /* padding: 0 8% 0 8%; */
+}
+
+img {
+  width: 25%;
+  margin-left: 5%;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border-width: 2px;;
+  border-color: hsl(0, 0%, 95%);
+  margin: 15% 35% 5% 5%;
+  padding: 5% 0;
+  font-family: Lexend Deca, sans-serif;
+}
+
+.btn.orange {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn.orange:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn.teal {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn.teal:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+}
+
+.btn.cyan {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn.cyan:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+}
+
+.container-fluid {
+  padding: 10% 15%;
+  margin: auto;
+}
+
+.card  {
+  border-radius: 10px;
+  padding: 5%;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
